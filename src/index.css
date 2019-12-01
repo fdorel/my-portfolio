@@ -23,7 +23,7 @@ ul li{
 
 .g-card-image {
   /* border-radius: 10px; */
-  width: 355px;
+  width: 348px;
   height: 250px;
   transition: box-shadow 0.5s ease-in-out;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
