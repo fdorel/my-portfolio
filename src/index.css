@@ -103,10 +103,10 @@ ul li{
 	text-align: left;
 }
 
-.tilesWrap li:hover {
+/*.tilesWrap li:hover {
   box-shadow: 5px 20px 20px 10px rgb(170, 180, 180);
   transition: box-shadow 0.5s ease-in-out;
-}
+}*/
 
 .tilesWrap li h2 {
 	font-size: 114px;
