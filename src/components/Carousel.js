@@ -60,7 +60,7 @@ class Carousel extends React.Component {
                     title: 'Ping Pong Game',
                     subTitle: 'Javascript Gam made in Canvas',
                     imgSrc: a5,
-                    link: 'http://en.fdorel.ca/Javascript/Game/game.html',
+                    link: 'http://fdorel.ca/Javascript/Game/game.html',
                     selected: false
                 },
                 {
@@ -76,7 +76,7 @@ class Carousel extends React.Component {
                     title: 'Mole CSS game',
                     subTitle: 'HTML and CSS game',
                     imgSrc: a7,
-                    link: 'http://en.fdorel.ca/HTML_CSS/moles/mole.html',
+                    link: 'http://fdorel.ca/HTML_CSS/moles/mole.html',
                     selected: false
                 },
                 {
@@ -84,7 +84,7 @@ class Carousel extends React.Component {
                     title: 'College Group Project',
                     subTitle: 'Bootstrap and PHP website',
                     imgSrc: a8,
-                    link: 'http://df.fdorel.ca/Team/DW_Final_7/index.html',
+                    link: 'http://fdorel.ca/Team/DW_Final_7/index.html',
                     selected: false
                 },
                 {
@@ -92,7 +92,7 @@ class Carousel extends React.Component {
                     title: 'Beekeeper',
                     subTitle: 'A Beekeeper Demo Website',
                     imgSrc: a9,
-                    link: 'http://df.fdorel.ca/igor/index.html',
+                    link: 'http://fdorel.ca/igor/index.html',
                     selected: false
                 },
                 {
@@ -100,7 +100,7 @@ class Carousel extends React.Component {
                     title: 'Calculator in Javascript',
                     subTitle: 'Javascript calculator app with HTML and CSS',
                     imgSrc: a10,
-                    link: 'http://en.fdorel.ca/Javascript/Calculator/calculator.html',
+                    link: 'http://fdorel.ca/Javascript/Calculator/calculator.html',
                     selected: false
                 },
                 {
@@ -108,7 +108,7 @@ class Carousel extends React.Component {
                     title: 'Time and Date',
                     subTitle: 'Javascript time and date',
                     imgSrc: a11,
-                    link: 'http://en.fdorel.ca/Javascript/Clock/clock.html',
+                    link: 'http://fdorel.ca/Javascript/Clock/clock.html',
                     selected: false
                 },
                 {
@@ -116,7 +116,7 @@ class Carousel extends React.Component {
                     title: 'To Come ...',
                     subTitle: 'Something new to come...',
                     imgSrc: a12,
-                    link: 'http://en.fdorel.ca',
+                    link: 'http://fdorel.ca',
                     selected: false
                 }
             ]
