@@ -24,7 +24,7 @@ class Carousel extends React.Component {
         this.state = {
             items: [
                 {
-                    id: 01,
+                    id: 0,
                     title: 'Social Network',
                     subTitle: 'App made with React,but not finished yet...',
                     imgSrc: a1,
