@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import Projects from './components/pages/Projects'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
-import './App.css';
+import './App';
 
 class App extends React.Component {
 
