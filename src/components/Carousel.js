@@ -40,7 +40,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 2,
+                    id: 2
                     title: 'Weather',
                     subTitle: 'Weather app made with React',
                     imgSrc: a3,
