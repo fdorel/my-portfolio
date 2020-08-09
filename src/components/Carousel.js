@@ -32,7 +32,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 1,
+                    id: 12,
                     title: 'Drones Online Store',
                     subTitle: 'App made with React and hosted on Netlify',
                     imgSrc: a2,
