@@ -12,7 +12,7 @@ function About(props) {
                 {/* Inspired by https://codepen.io/vikassingh1111/pen/xBPmbL */}
                 <ul className="justify-content-center tilesWrap">
                     <li>
-                        <h2>001</h2>
+                        <h2>01</h2>
                         <h3>HTML5 and CSS3</h3>
                         <p>
                         HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup based pattern to it.<br/><br/>
