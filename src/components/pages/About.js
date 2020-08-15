@@ -41,7 +41,7 @@ function About(props) {
                         <br/><h6>Source: https://en.wikipedia.org/wiki/JavaScript<br/>https://en.wikipedia.org/wiki/JQuery</h6>
                     </li>
                     <li>
-                        <h2>003</h2>
+                        <h2>03</h2>
                         <h3>React and Material UI</h3>
                         <p>
                         React (also known as React.js or ReactJS) is a JavaScript library for building user interfaces. It is maintained by Facebook
