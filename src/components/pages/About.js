@@ -23,7 +23,7 @@ function About(props) {
                     </li>
                     <li>
                         <h2>002</h2>
-                        <h3>Javascript and jQuery</h3>
+                        <h3>Javascript</h3>
                         <p>
                         Javascript, often abbreviated as JS, is a high-level, just-in-time compiled, object-oriented programming language that conforms
                         to the ECMAScript specification.
