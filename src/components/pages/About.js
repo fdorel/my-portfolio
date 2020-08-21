@@ -22,7 +22,7 @@ function About(props) {
                         <br/><h6>Source: https://en.wikipedia.org/wiki/HTML5</h6>
                     </li>
                     <li>
-                        <h2>2</h2>
+                        <h2>002</h2>
                         <h3>Javascript and jQuery</h3>
                         <p>
                         Javascript, often abbreviated as JS, is a high-level, just-in-time compiled, object-oriented programming language that conforms
