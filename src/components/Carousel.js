@@ -48,7 +48,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 3,
+                    id: 30,
                     title: 'React Notes',
                     subTitle: 'Notes App made with React and Firebase',
                     imgSrc: a4,
