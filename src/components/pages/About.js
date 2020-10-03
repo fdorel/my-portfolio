@@ -12,7 +12,7 @@ function About(props) {
                 {/* Inspired by https://codepen.io/vikassingh1111/pen/xBPmbL */}
                 <ul className="justify-content-center tilesWrap">
                     <li>
-                        <h2>001</h2>
+                        <h2>1.</h2>
                         <h3>HTML5 and CSS3</h3>
                         <p>
                         HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup based pattern to it.<br/><br/>
@@ -22,7 +22,7 @@ function About(props) {
                         <br/><h6>Source: https://en.wikipedia.org/wiki/HTML5</h6>
                     </li>
                     <li>
-                        <h2>002</h2>
+                        <h2>2.</h2>
                         <h3>Javascript and jQuery</h3>
                         <p>
                         Javascript, often abbreviated as JS, is a high-level, just-in-time compiled, object-oriented programming language that conforms
@@ -41,7 +41,7 @@ function About(props) {
                         <br/><h6>Source: https://en.wikipedia.org/wiki/JavaScript<br/>https://en.wikipedia.org/wiki/JQuery</h6>
                     </li>
                     <li>
-                        <h2>003</h2>
+                        <h2>3.</h2>
                         <h3>React and Material UI</h3>
                         <p>
                         React (also known as React.js or ReactJS) is a JavaScript library for building user interfaces. It is maintained by Facebook
