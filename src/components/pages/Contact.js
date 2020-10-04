@@ -56,7 +56,7 @@ class Contact extends React.Component {
                     </Form.Group>
                     <Form.Group>
                         <Form.Label htmlFor="message">Message</Form.Label>
-                        <Form.Control id="message" name="message" as="textarea" cols="50" rows="10" value={this.state.message} onChange={this.handleChange} />
+                        <Form.Control id="message" name="message" as="textarea" cols="50" rows="12" value={this.state.message} onChange={this.handleChange} />
                     </Form.Group>
 
                     <Button className='d-inline-bock' variant='primary' type='submit' disabled={this.state.disabled}>
