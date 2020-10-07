@@ -12,7 +12,7 @@ class Contact extends React.Component {
             name: '',
             email: '',
             message: '',
-            disabled: true,
+            disabled: false,
             emailSent: null
         }
     }
