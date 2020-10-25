@@ -13,7 +13,7 @@ function About(props) {
                 <ul className="justify-content-center tilesWrap">
                     <li>
                         <h2>1.0</h2>
-                        <h3>HTML5 and CSS3</h3>
+                        <h3>HTML and CSS</h3>
                         <p>
                         HTML5 is a software solution stack that defines the properties and behaviors of web page content by implementing a markup based pattern to it.<br/><br/>
                         HTML5 is the fifth and current major version of HTML, and subsumes XHTML. The current standard, the HTML Living Standard is developed by WHATWG,
