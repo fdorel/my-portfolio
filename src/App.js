@@ -23,7 +23,7 @@ class App extends React.Component {
       projects: {
         title: 'Creativity\n Development\n Enthusiasm',
         subTitle: 'This is what I use for making websites and apps',
-        text: 'See all my projects below'
+        text: 'You can visit my projects down below'
       },
       about: {
         title: 'Some words about me'
