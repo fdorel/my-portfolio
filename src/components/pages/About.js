@@ -8,7 +8,7 @@ function About(props) {
             <Hero title={props.title} />
 
             <Content className="centerText">
-                <p className="display-4">Skills and knowledge that I use for Web Development</p>
+                <p className="display-4">Skills and knowledge I use for Web Development</p>
                 {/* Inspired by https://codepen.io/vikassingh1111/pen/xBPmbL */}
                 <ul className="justify-content-center tilesWrap">
                     <li>
