@@ -38,7 +38,7 @@ function About(props) {
                         jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications.
                         jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library.
                         </p>
-                        <br/><h6>Source: https://n.wikipedia.org/wiki/JavaScript<br/>https://en.wikipedia.org/wiki/JQuery</h6>
+                        <br/><h6>Source: https://en.wikipedia.org/wiki/JavaScript<br/>https://en.wikipedia.org/wiki/JQuery</h6>
                     </li>
                     <li>
                         <h2>3.0</h2>
