@@ -11,7 +11,7 @@ function Footer() {
                     <Col className="p-0" md={3} sm={12}>
                        <img src="" alt="logo" />
                     </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
+                    <Col className="p-0 d-flex justify-content-end" md={6}>
                         Portfolio Website 2019
                     </Col>
                 </Row>
