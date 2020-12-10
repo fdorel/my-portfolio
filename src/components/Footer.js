@@ -12,7 +12,7 @@ function Footer() {
                        <img src="" alt="logo" />
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Portfolio Website 2019
+                        Portfolio Website 2020
                     </Col>
                 </Row>
             </Container>
