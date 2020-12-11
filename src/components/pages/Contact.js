@@ -60,7 +60,7 @@ class Contact extends React.Component {
                     </Form.Group>
 
                     <Button className='d-inline-bock' variant='primary' type='submit' disabled={this.state.disabled}>
-                        Go
+                        Send messsage
                     </Button>
 
                     {this.state.emailSent === true && <p className="d-inline success-msg">Email Succesfully Sent</p>}
