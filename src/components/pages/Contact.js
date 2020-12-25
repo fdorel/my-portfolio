@@ -14,7 +14,7 @@ class Contact extends React.Component {
             email: '',
             message: '',
             disabled: false,
-            emailSent: n
+            emailSent: null
         }
     }
 
