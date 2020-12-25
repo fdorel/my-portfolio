@@ -10,8 +10,8 @@ class Contact extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: '',
-            email: '',
+            the_name: '',
+            thr_email: '',
             message: '',
             disabled: false,
             emailSent: null
