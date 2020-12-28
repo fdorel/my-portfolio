@@ -73,4 +73,4 @@ class Contact extends React.Component {
     }
 }
 
-export default 
+export default Contact
