@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../../components/Hero';
 import Carousel from '../Carousel';
 
-function Projects(props) {
+function Projects() {
     return(
         <div>
             <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
