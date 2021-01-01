@@ -23,10 +23,10 @@ ul li{
 
 .g-card-image {
   /* border-radius: 10px; */
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   /*transition: box-shadow 0.5s ease-in-out;*/
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .g-card-image:hover {
@@ -50,12 +50,6 @@ ul li{
   font-size: 1.2rem;
   /*box-shadow: 5px 20px 20px 10px #ccc;
   transition: box-shadow 0.3s ease-in-out;*/
-}
-
-.g-card-info:hover {
-  /*box-shadow: 5px 20px 20px 10px #ccc;
-  transition: box-shadow 0.3s ease-in-out;*/
-  background: #f3f3f3;
 }
 
 
