@@ -23,8 +23,8 @@ ul li{
 
 .g-card-image {
   /* border-radius: 10px; */
-  width: 340px;
-  height: 248px;
+  width: 400px;
+  height: 300px;
   /*transition: box-shadow 0.5s ease-in-out;*/
   opacity: 0.6;
 }
