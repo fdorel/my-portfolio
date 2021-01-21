@@ -27,7 +27,7 @@ body {
 }
 
 form {
-  margin-bottom: 30%;
+  margin-bottom: 50%;
 }
 
 .nav-link {
@@ -71,7 +71,7 @@ form {
   .g-card,
   .g-card-image,
   .g-card-info {
-    margin-right: 4%;
+    margin-right: 2%;
     width: 95%;
     height: 95%;
     opacity: 1;
