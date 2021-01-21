@@ -177,3 +177,7 @@ ul li {
     opacity: 1;
   }
 }
+
+.g-card, .g-card-image, .g-card-info, .g-card-title, .g-card-sub-title:hover {
+  cursor: pointer;
+}
