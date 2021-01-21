@@ -56,7 +56,7 @@ ul li {
   .g-card,
   .g-card-image,
   .g-card-info {
-    margin-right: 5%;
+    margin-right: 2%;
     width: 95%;
     height: 95%;
     opacity: 1;
@@ -84,9 +84,9 @@ ul li {
 }
 .tilesWrap li {
   display: inline-block;
-  width: 90%;
-  min-width: 90%;
-  max-width: 90%;
+  width: 95%;
+  min-width: 95%;
+  max-width: 95%;
   padding: 80px 20px 40px;
   position: relative;
   vertical-align: top;
