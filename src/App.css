@@ -1,0 +1,77 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 38vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.App-link {
+  color: #09d5ac;
+}
+
+body {
+  overflow-x: hidden !important;2
+}
+
+form {
+  margin-bottom: 30%;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 20px;
+}
+
+.g-card {
+  margin: 1%;
+}
+
+.g-card-image {
+  /* border-radius: 10px; */
+  width: 400px;
+  height: 280px;
+  /*transition: box-shadow 0.5s ease-in-out;*/
+  opacity: 1;
+}
+
+.g-card-info {
+  text-align: center;
+  margin-top: 0px;
+  min-height: 100px;
+  background: #f2f2f2;
+  font-size: 1.2rem;
+  /*box-shadow: 5px 20px 20px 10px #ccc;
+  transition: box-shadow 0.3s ease-in-out;*/
+}
+
+.g-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.g-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+   .g-card, .g-card-image, .g-card-info {
+ margin-right: 50%;
+ width: 250px;
+  height: 170px;
+  opacity: 1;
+      }
+}
