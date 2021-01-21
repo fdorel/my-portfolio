@@ -23,7 +23,7 @@
 }
 
 body {
-  overflow-x: hidden !important;2
+  overflow-x: hidden !important;
 }
 
 form {
@@ -68,10 +68,12 @@ form {
 }
 
 @media screen and (max-width: 600px) {
-   .g-card, .g-card-image, .g-card-info {
- margin-right: 50%;
- width: 250px;
-  height: 170px;
-  opacity: 1;
-      }
+  .g-card,
+  .g-card-image,
+  .g-card-info {
+    margin-right: 50%;
+    width: 250px;
+    height: 170px;
+    opacity: 1;
+  }
 }

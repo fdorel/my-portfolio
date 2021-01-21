@@ -8,6 +8,7 @@ import Projects from './components/pages/Projects'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
 import './App.css';
+import logo from './components/images/logo.png';
 
 class App extends React.Component {
 
@@ -39,7 +40,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0 justify-content-center" fluid={true}>
           <Navbar className="navbar justify-content-center border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand><img src={require("./components/images/logo.png")} alt="logo" /></Navbar.Brand>
+            <Navbar.Brand><img src={logo} alt="logo" /></Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
