@@ -7,11 +7,6 @@ body {
   overflow-x: hidden;
 }
 
-/*.container, .container-fluid, .navbar, footer {
-  margin-left: 10% !important;
-  margin-right: 10% !important;
-}*/
-
 code {
   font-family: "Poppins";
 }
@@ -33,6 +28,7 @@ ul li {
 }
 
 .g-card-info {
+  border-radius: 10px;
   text-align: center;
   margin-top: 0px;
   min-height: 100px;
