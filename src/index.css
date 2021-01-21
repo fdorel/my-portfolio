@@ -171,8 +171,8 @@ ul li {
 @media screen and (max-width: 600px) {
   .g-card-image {
     border-radius: 10px;
-    width: 95%
-    height: 95%
+    width: 95%;
+    height: 95%;
     transition: box-shadow 0.5s ease-in-out;
     opacity: 1;
   }
