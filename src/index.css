@@ -53,12 +53,14 @@ ul li {
 }
 
 @media screen and (max-width: 600px) {
-   .g-card, .g-card-image, .g-card-info {
- margin-right: 50%;
- width: 250px;
-  height: 170px;
-  opacity: 1;
-      }
+  .g-card,
+  .g-card-image,
+  .g-card-info {
+    margin-right: 50%;
+    width: 250px;
+    height: 170px;
+    opacity: 1;
+  }
 }
 
 .success-msg {
@@ -167,20 +169,21 @@ ul li {
 }*/
 
 @media screen and (max-width: 600px) {
-    .g-card-image {
-  /* border-radius: 10px; */
-  width: 250px;
-  height: 170px;
-  /*transition: box-shadow 0.5s ease-in-out;*/
-  opacity: 1;
-      }
+  .g-card-image {
+    /* border-radius: 10px; */
+    width: 250px;
+    height: 170px;
+    /*transition: box-shadow 0.5s ease-in-out;*/
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .g-card-image {
-  /* border-radius: 10px; */
-  width: 200px;
-  height: 150px;
-  /*transition: box-shadow 0.5s ease-in-out;*/
-  opacity: 1;
- 
+  .g-card-image {
+    /* border-radius: 10px; */
+    width: 200px;
+    height: 150px;
+    /*transition: box-shadow 0.5s ease-in-out;*/
+    opacity: 1;
+  }
+}
