@@ -67,7 +67,7 @@ form {
   margin: 0px;
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .g-card,
   .g-card-image,
   .g-card-info {
@@ -76,4 +76,4 @@ form {
     height: 170px;
     opacity: 1;
   }
-}
+}*/
