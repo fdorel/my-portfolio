@@ -78,46 +78,6 @@ class Carousel extends React.Component {
                     imgSrc: a7,
                     link: 'https://login-signup-six.vercel.app/login',
                     selected: false
-                },
-                {
-                    id: 7,
-                    title: 'College Group Project',
-                    subTitle: 'Bootstrap and PHP website',
-                    imgSrc: a8,
-                    link: 'http://fdorel.ca/Team/DW_Final_7/index.html',
-                    selected: false
-                },
-                {
-                    id: 8,
-                    title: 'Beekeeper',
-                    subTitle: 'A Beekeeper Demo Website',
-                    imgSrc: a9,
-                    link: 'http://fdorel.ca/igor/index.html',
-                    selected: false
-                },
-                {
-                    id: 9,
-                    title: 'Calculator in Javascript',
-                    subTitle: 'Javascript calculator app with HTML and CSS',
-                    imgSrc: a10,
-                    link: 'http://fdorel.ca/Javascript/Calculator/calculator.html',
-                    selected: false
-                },
-                {
-                    id: 10,
-                    title: 'Time and Date',
-                    subTitle: 'Javascript time and date',
-                    imgSrc: a11,
-                    link: 'http://fdorel.ca/Javascript/Clock/clock.html',
-                    selected: false
-                },
-                {
-                    id: 11,
-                    title: 'To Come ...',
-                    subTitle: 'Something new to come...',
-                    imgSrc: a12,
-                    link: 'http://fdorel.ca',
-                    selected: false
                 }
             ]
         }
