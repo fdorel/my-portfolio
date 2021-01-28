@@ -9,11 +9,6 @@ import a4 from '../components/images/port4.jpg';
 import a5 from '../components/images/port9.jpg';
 import a6 from '../components/images/port11.jpg';
 import a7 from '../components/images/port10.jpg';
-import a8 from '../components/images/port8.jpg';
-import a9 from '../components/images/port12.jpg';
-import a10 from '../components/images/port7.jpg';
-import a11 from '../components/images/port6.jpg';
-import a12 from '../components/images/port5.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
