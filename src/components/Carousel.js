@@ -9,6 +9,7 @@ import a4 from '../components/images/port4.jpg';
 import a5 from '../components/images/port9.jpg';
 import a6 from '../components/images/port11.jpg';
 import a7 from '../components/images/port10.jpg';
+import a8 from '../components/images/port5.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -72,6 +73,14 @@ class Carousel extends React.Component {
                     subTitle: 'MERN project',
                     imgSrc: a7,
                     link: 'https://login-signup-six.vercel.app/login',
+                    selected: false
+                },
+                                {
+                    id: 7,
+                    title: 'Shortlify',
+                    subTitle: 'MERN project',
+                    imgSrc: a8,
+                    link: 'https://shortlify-mobile.herokuapp.com/',
                     selected: false
                 }
             ]
