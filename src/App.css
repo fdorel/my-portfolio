@@ -23,7 +23,7 @@
 }
 
 body {
-  overflow-x:  !important;
+  overflow-x: hidden !important;
 }
 
 form {
