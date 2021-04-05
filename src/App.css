@@ -20,7 +20,7 @@
 }
 
 body {
-  overflow-x: hidden !important;
+  overflow-x: hidden ;
 }
 
 form {
