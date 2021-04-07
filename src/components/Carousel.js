@@ -40,7 +40,7 @@ class Carousel extends React.Component {
                     title: 'Weather',
                     subTitle: 'Weather app made with React',
                     imgSrc: a3,
-                    link: 'https://clockweather.netlify.com/',
+                    link: 'https://fdd.netlify.app/',
                     selected: false
                 },
                 {
