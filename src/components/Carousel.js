@@ -10,6 +10,7 @@ import a5 from '../components/images/port9.jpg';
 import a6 from '../components/images/port11.jpg';
 import a7 from '../components/images/port10.jpg';
 import a8 from '../components/images/port5.jpg';
+import a9 from '../components/images/port6.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -86,8 +87,8 @@ class Carousel extends React.Component {
                     id: 8,
                     title: 'VanillaJS web builder',
                     subTitle: 'JS project',
-                    imgSrc: a2,
-                    link: 'https://jswebuilder.netlify.app',
+                    imgSrc: a9,
+                    link: 'https://jswebuilder.netlify.app/',
                     selected: false
             ]
         }
