@@ -86,7 +86,7 @@ class Carousel extends React.Component {
                     id: 8,
                     title: 'VanillaJS web builder',
                     subTitle: 'JS project',
-                    imgSrc: a9,
+                    imgSrc: a2,
                     link: 'https://jswebuilder.netlify.app',
                     selected: false
             ]
