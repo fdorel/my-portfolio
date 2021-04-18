@@ -76,7 +76,7 @@ class Carousel extends React.Component {
                     link: 'https://login-signup-six.vercel.app/login',
                     selected: false
                 },
-                                {
+                {
                     id: 7,
                     title: 'Shortlify',
                     subTitle: 'MERN project',
