@@ -9,7 +9,7 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0 d-flex justify-content-end" md={12} sm={12}>
-                        <h5>Portfolio Website 2020</h5>
+                        <h5>Portfolio Website 2021</h5>
                     </Col>
                 </Row>
             </Container>
