@@ -84,12 +84,14 @@ class Carousel extends React.Component {
                     link: 'https://shortlify-mobile.herokuapp.com/',
                     selected: false
                 },
+                {
                     id: 8,
                     title: 'VanillaJS web builder',
                     subTitle: 'JS project',
                     imgSrc: a9,
                     link: 'https://jswebuilder.netlify.app/',
                     selected: false
+                }
             ]
         }
     }
