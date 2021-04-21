@@ -12,7 +12,7 @@ import a7 from '../components/images/port10.jpg';
 import a8 from '../components/images/port5.jpg';
 import a9 from '../components/images/port6.jpg';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/';
+import Row from 'react-bootstrap/Row';
 
 class Carousel extends React.Component {
 
