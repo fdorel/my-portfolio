@@ -19,7 +19,7 @@ class Contact extends React.Component {
     }
 
     handleChange = (event) => {
-        console.log(event)
+        console.log(e)
 
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
