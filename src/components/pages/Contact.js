@@ -18,7 +18,7 @@ class Contact extends React.Component {
         }
     }
 
-    handleChange = (event) => {
+    handleChange = (e) => {
         console.log(e)
 
         const target = event.target;
