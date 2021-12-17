@@ -8,7 +8,7 @@ import Projects from './components/pages/Projects'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
 import './App.css';
-import logo from './components/images/logo.png';
+import from './components/images/logo.png';
 
 class App extends React.Component {
 
