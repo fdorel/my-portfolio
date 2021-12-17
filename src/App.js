@@ -12,7 +12,7 @@ import logo from './components/images/logo.png';
 
 class App extends React.Component {
 
-  constructor(props) {
+  constructor(ps) {
     super(props);
     this.state = {
       title: 'My Portfolio',
