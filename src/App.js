@@ -17,8 +17,8 @@ class App extends React.Component {
     this.state = {
       title: 'My Portfolio',
       headerLinks: [
-        { title: 'My Projects', path: '/' },
-        { title: 'About Me', path: '/about' },
+        { title: 'Projects', path: '/' },
+        { title: 'About', path: '/about' },
         { title: `'Contact'`, path: '/contact' }
       ],
       projects: {
