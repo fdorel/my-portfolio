@@ -73,7 +73,7 @@ class Carousel extends React.Component {
                     title: 'Login & Register',
                     subTitle: 'MERN project',
                     imgSrc: a7,
-                    link: 'https://login-signup-six.vercel.app/login',
+                    link: 'https://login-signup-0foq-fcm1w4i8e-fdorels-projects.vercel.app/',
                     selected: false
                 },
                 {
