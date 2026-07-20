@@ -10,6 +10,7 @@ import Contact from './components/pages/Contact'
 import './App.css';
 import logo from './components/images/logo.png';
 
+/* class App */
 class App extends React.Component {
 
   constructor(props) {
