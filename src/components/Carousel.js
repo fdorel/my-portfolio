@@ -33,7 +33,7 @@ class Carousel extends React.Component {
                     title: 'Drones Online Store',
                     subTitle: 'App made with React and hosted on Netlify',
                     imgSrc: a2,
-                    link: 'https://react-drone.netlify.com/',
+                    link: 'https://react-drone.netlify.app/',
                     selected: false
                 },
                 {
