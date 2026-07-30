@@ -49,7 +49,7 @@ class Carousel extends React.Component {
                     title: 'React Notes',
                     subTitle: 'Notes App made with React and Firebase',
                     imgSrc: a4,
-                    link: 'https://react-new-notes.netlify.com/',
+                    link: 'https://react-new-notes.netlify.app/',
                     selected: false
                 },
                 {
