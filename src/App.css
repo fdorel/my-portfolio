@@ -28,9 +28,12 @@ form {
   margin-bottom: 55%;
 }
 
+.nav .navbar {
+  background: #ffffff;  
+}
+
 .nav-link {
   color: black !important;
-  background: #ffffff;
   font-size: 20px;
 }
 
@@ -74,7 +77,10 @@ form {
     width: 95%;
     height: 95%;
     opacity: 1;
-  }
+  },
+  .nav .navbar {
+  background: #ffffff;  
+}
 }
 
 .g-card, .g-card-image, .g-card-info, .g-card-title, .g-card-sub-title:hover {
