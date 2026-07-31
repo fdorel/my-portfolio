@@ -29,12 +29,12 @@ form {
 }
 
 .nav {
-  background: #ffffff;  
+  background: #ffffff !important;
 }
 
 
 .nav .navbar {
-  background: #ffffff;  
+  background: #ffffff !important;
 }
 
 .nav-link {
@@ -84,10 +84,10 @@ form {
     opacity: 1;
   },
   .nav {
-  background: #ffffff;  
+  background: #ffffff !important;  
   },
   .nav .navbar {
-  background: #ffffff;  
+  background: #ffffff !important;
   }
 }
 
