@@ -54,7 +54,7 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 4,
-                    title: 'Portfolio Tech PC Repair Development',
+                    title: 'My Tech Repairs',
                     subTitle: 'Portfolio made during my studies at the college',
                     imgSrc: a5,
                     link: 'https://cineportf.netlify.app/',
@@ -62,10 +62,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 5,
-                    title: 'CoddPix Studio',
-                    subTitle: 'Web Development Agency',
+                    title: 'Networking Portfolio',
+                    subTitle: 'Net Timeline',
                     imgSrc: a6,
-                    link: 'https://coddpix.com/en',
+                    link: 'https://netevol.netlify.app/',
                     selected: false
                 },
                 {
