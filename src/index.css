@@ -120,7 +120,19 @@ ul li {
   margin-top: 5px;
 }
 
-.tilesWrap li:hover {
+.tilesWrap li:hover h2 {
+  top: 0px;
+  opacity: 0.6;
+  color: rgb(128, 204, 235);
+}
+
+.tilesWrap li:hover h3 {
+  top: 0px;
+  opacity: 0.6;
+  color: rgb(128, 204, 235);
+}
+
+.tilesWrap li:hover p {
   top: 0px;
   opacity: 0.6;
   color: rgb(128, 204, 235);
