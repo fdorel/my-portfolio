@@ -54,10 +54,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 4,
-                    title: 'Portfolio Web Development',
+                    title: 'Portfolio Tech PC Repair Development',
                     subTitle: 'Portfolio made during my studies at the college',
                     imgSrc: a5,
-                    link: 'http://fdorel.info/',
+                    link: 'https://cineportf.netlify.app/',
                     selected: false
                 },
                 {
