@@ -25,7 +25,7 @@ class Carousel extends React.Component {
                     title: 'Social Network',
                     subTitle: 'App made with React,but not finished yet...',
                     imgSrc: a1,
-                    link: 'https://socnet-up.netlify.app/login',
+                    link: 'https://socnet-up.netlify.app/',
                     selected: false
                 },
                 {
