@@ -1184,60 +1184,125 @@ textarea.form-control {
 }
 
 /* ============================================
-   QUICK FIX FOR WHITE LINES
+   FIX WHITE LINES - ADD TO YOUR EXISTING CSS
    ============================================ */
 
-/* Remove all white lines from navbar */
-.navbar,
-.navbar::after,
-.navbar::before {
-  border-bottom: none !important;
+/* Prevent any white gaps between sections */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* Ensure no scrollbar gap shows through */
+  scrollbar-width: none; /* Firefox */
 }
 
+body::-webkit-scrollbar {
+  display: none; /* Chrome/Safari - hide but keep functionality */
+}
+
+/* Fix for navbar white line at top */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  /* Remove any borders that might show as lines */
+  border-bottom: none !important;
+  /* Ensure solid background when scrolled */
+  transition: all 0.4s ease;
+}
+
+/* Navbar with background - eliminates transparent gap */
 .navbar.scrolled {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
-  background: #020617 !important; /* Solid dark instead of transparent */
+  background: rgba(2, 6, 23, 0.95) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  /* Add subtle shadow instead of border line */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
   border-bottom: none !important;
 }
 
-/* Remove all white lines from footer */
+/* Ensure navbar covers any potential gaps */
+.navbar::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, 
+    rgba(108, 99, 255, 0.3), 
+    rgba(255, 107, 157, 0.3)
+  );
+  z-index: -1;
+}
+
+/* Fix for footer white line at bottom */
 .footer {
+  padding: 40px 0;
+  /* Remove border that creates the line effect */
   border-top: none !important;
   position: relative;
+  overflow: hidden;
 }
 
-/* Add gradient line instead of solid white */
-.footer::after {
+/* Add gradient fade instead of solid border line */
+.footer::before {
   content: '';
-  display: block;
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 1px;
   background: linear-gradient(90deg, 
-    transparent 0%, 
-    rgba(108, 99, 255, 0.4) 50%, 
-    transparent 100%
+    transparent, 
+    rgba(108, 99, 255, 0.3), 
+    rgba(255, 107, 157, 0.3), 
+    transparent
   );
 }
 
-/* Ensure no gaps between sections */
-section {
+/* Ensure footer has solid background */
+.contact-section + .footer,
+.footer {
+  background: var(--darker);
+  /* Force cover any gaps */
+  min-height: 60px;
+}
+
+/* Additional fix - ensure sections don't have bottom margins that create gaps */
+.section:last-of-type {
   margin-bottom: 0 !important;
+  padding-bottom: 80px; /* Reduced to prevent footer gap */
 }
 
-/* Fix body background to prevent white showing through */
+/* Fix for any white space between components */
+section, 
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure body has dark background everywhere */
 body {
-  background: #020617 !important;
+  background-color: var(--darker) !important;
   min-height: 100vh;
-  overflow-x: hidden;
 }
 
-/* Remove any scrollbar gap */
-html {
-  scrollbar-width: none;
+/* Fix for scroll-related transparency issues */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar {
-  width: 0 !important;
-  height: 0 !important;
+/* Additional safeguard against white lines on all elements */
+.hero,
+.about,
+.skills-section,
+.projects-section,
+.experience,
+.contact-section,
+.footer {
+  background-attachment: scroll; /* Prevent transparency issues */
 }
-
