@@ -1,1 +1,239 @@
+/* ============================================
+   NAVBAR STYLES - MOBILE MENU ENHANCED
+   ============================================ */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 24px 0;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbar.scrolled {
+  background: rgba(2, 6, 23, 0.95) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 16px 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+}
+
+/* Brand/Logo */
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white !important;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-brand span {
+  background: linear-gradient(135deg, #6C63FF 0%, #FF6B9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  z-index: 10;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: white !important;
+  background: rgba(108, 99, 255, 0.1);
+}
+
+/* Mobile Toggle Button */
+.mobile-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  padding: 8px;
+  background: transparent;
+  border: none;
+  z-index: 1001;
+  position: relative;
+}
+
+.mobile-toggle span {
+  width: 24px;
+  height: 2px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  position: absolute;
+}
+
+.mobile-toggle span:nth-child(1) {
+  transform: translateY(-6px);
+}
+
+.mobile-toggle span:nth-child(3) {
+  transform: translateY(6px);
+}
+
+/* Active State - Hamburger to X Animation */
+.mobile-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.mobile-toggle.active span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+.mobile-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mobile Overlay */
+.mobile-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(2, 6, 23, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.mobile-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ============================================
+   MOBILE RESPONSIVE STYLES
+   ============================================ */
+@media (max-width: 968px) {
+  /* Show hamburger button */
+  .mobile-toggle {
+    display: flex;
+  }
+
+  /* Hide desktop navigation links normally */
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 400px;
+    height: 100vh;
+    background: rgba(2, 6, 23, 0.98);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 40px;
+    z-index: 999;
+    transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Slide in when menu is open */
+  .nav-links.mobile-active {
+    right: 0;
+  }
+
+  /* Style links for mobile */
+  .nav-link {
+    font-size: 1.2rem;
+    padding: 16px 32px;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.4s ease;
+  }
+
+  /* Stagger animation for menu items */
+  .nav-links.mobile-active .nav-link:nth-child(1) { 
+    opacity: 1; 
+    transform: translateX(0); 
+    transition-delay: 0.1s; 
+  }
+  .nav-links.mobile-active .nav-link:nth-child(2) { 
+    opacity: 1; 
+    transform: translateX(0); 
+    transition-delay: 0.15s; 
+  }
+  .nav-links.mobile-active .nav-link:nth-child(3) { 
+    opacity: 1; 
+    transform: translateX(0); 
+    transition-delay: 0.2s; 
+  }
+  .nav-links.mobile-active .nav-link:nth-child(4) { 
+    opacity: 1; 
+    transform: translateX(0); 
+    transition-delay: 0.25s; 
+  }
+  .nav-links.mobile-active .nav-link:nth-child(5) { 
+    opacity: 1; 
+    transform: translateX(0); 
+    transition-delay: 0.3s; 
+  }
+  .nav-links.mobile-active .nav-link:nth-child(6) { 
+    opacity: 1; 
+    transform: translateX(0); 
+    transition-delay: 0.35s; 
+  }
+
+  /* Remove overlay class dependency */
+  .mobile-overlay.active {
+    display: none;
+  }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+  .nav-links {
+    width: 100%;
+  }
+  
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+}
+
+/* Prevent body scroll when menu is open */
+body.menu-open {
+  overflow: hidden;
+}
 
