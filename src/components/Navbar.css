@@ -14,7 +14,7 @@ html, body {
 }
 
 .navbar {
-  position: fixed;
+  position: fixed right;
   top: 0;
   left: 0;
   right: 0;
@@ -27,13 +27,13 @@ html, body {
   background: rgba(2, 6, 23, 0.95) !important;
   backdrop-filter: blur(20px);
   padding: 16px 0;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  /*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);*/
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
@@ -48,6 +48,7 @@ html, body {
   color: white !important;
   text-decoration: none;
   position: relative;
+  align-items: left;
   z-index: 2;
 }
 
