@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
-import './Navbar.css'; // Create this file for navbar-specific styles
+import './Navbar.css'; // Make sure this file exists in the same directory
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // Navigation links data
+  // Navigation links data - update these as needed
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
@@ -28,11 +28,32 @@ const Navbar = () => {
   // Close menu when clicking a link (mobile only)
   const closeMenu = () => {
     setIsMobileMenuOpen(false);
+    document.body.classList.remove('menu-open');
   };
 
   // Toggle mobile menu open/close
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    const newState = !isMobileMenuOpen;
+    setIsMobileMenuOpen(newState);
+    
+    if (newState) {
+      document.body.classList.add('menu-open');
+    } else {
+      document.body.classList.remove('menu-open');
+    }
+  };
+
+  // Handle link clicks - smooth scroll + close menu on mobile
+  const handleLinkClick = (e, href) => {
+    if (window.innerWidth <= 968) {
+      e.preventDefault();
+      setTimeout(() => {
+        document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+        closeMenu();
+      }, 100);
+    } else {
+      closeMenu();
+    }
   };
 
   return (
@@ -43,22 +64,17 @@ const Navbar = () => {
           <span>D</span>inesh<span>D</span>arshan
         </a>
 
-        {/* Desktop Navigation Links */}
-        <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-active' : ''}`}>
+        {/* Navigation Links - Desktop & Mobile */}
+        <ul 
+          className={`nav-links ${isMobileMenuOpen ? 'mobile-active' : ''}`} 
+          id="main-navigation"
+        >
           {navLinks.map((link) => (
             <li key={link.name}>
               <a 
                 href={link.href} 
                 className="nav-link"
-                onClick={(e) => {
-                  // Prevent smooth scroll issues on mobile
-                  if (window.innerWidth <= 768) {
-                    e.preventDefault();
-                    setTimeout(() => closeMenu(), 100);
-                  } else {
-                    closeMenu();
-                  }
-                }}
+                onClick={(e) => handleLinkClick(e, link.href)}
               >
                 {link.name}
               </a>
@@ -72,6 +88,7 @@ const Navbar = () => {
           onClick={toggleMobileMenu}
           aria-label="Toggle navigation menu"
           aria-expanded={isMobileMenuOpen}
+          aria-controls="main-navigation"
         >
           <span></span>
           <span></span>
@@ -79,11 +96,11 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu Overlay (for better UX) */}
+      {/* Mobile Overlay - closes menu when clicking outside */}
       {isMobileMenuOpen && (
         <div 
           className="mobile-overlay" 
-          onClick={() => setIsMobileMenuOpen(false)}
+          onClick={closeMenu}
         ></div>
       )}
     </nav>
@@ -91,4 +108,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
