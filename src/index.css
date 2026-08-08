@@ -7,6 +7,18 @@ body {
   overflow-x: hidden;
 }
 
+html, body {
+  border: none !important;
+  outline: none !important;
+  overflow-x: hidden; /* Prevents 1px sub-pixel horizontal scrolling borders */
+}
+
+/* If you have a main wrapper or layout container */
+.wrapper, .container, #root {
+  border-right: none !important;
+  box-shadow: none !important;
+}
+
 code {
   font-family: "Poppins";
 }
