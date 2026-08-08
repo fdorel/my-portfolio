@@ -39,6 +39,11 @@ ul li {
   transition: box-shadow 0.3s ease-in-out;
 }
 
+header, .navbar, nav {
+  border-bottom: none !important;
+  box-shadow: none !important; /* In case a 1px shadow is creating the line effect */
+}
+
 .g-card-title {
   font-size: 24px;
   margin: 0px;
