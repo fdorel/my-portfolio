@@ -124,7 +124,6 @@ body {
 .navbar.scrolled {
   background: rgba(2, 6, 23, 0.85);
   backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   padding: 12px 0;
 }
 
@@ -1035,7 +1034,6 @@ textarea.form-control {
    ============================================ */
 .footer {
   padding: 40px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
   text-align: center;
 }
 
@@ -1207,8 +1205,7 @@ body::-webkit-scrollbar {
   left: 0;
   right: 0;
   z-index: 1000;
-  /* Remove any borders that might show as lines */
-  border-bottom: none !important;
+-bottom: none !important;
   /* Ensure solid background when scrolled */
   transition: all 0.4s ease;
 }
@@ -1220,7 +1217,6 @@ body::-webkit-scrollbar {
   -webkit-backdrop-filter: blur(20px);
   /* Add subtle shadow instead of border line */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-  border-bottom: none !important;
 }
 
 /* Ensure navbar covers any potential gaps */
@@ -1242,7 +1238,6 @@ body::-webkit-scrollbar {
 .footer {
   padding: 40px 0;
   /* Remove border that creates the line effect */
-  border-top: none !important;
   position: relative;
   overflow: hidden;
 }
