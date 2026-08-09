@@ -59,11 +59,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
-        {/* Logo/Brand */}
-        <a href="#home" className="navbar-brand" onClick={closeMenu}>
-          <span>D</span>inesh<span>D</span>arshan
-        </a>
-
+        
         {/* Navigation Links - Desktop & Mobile */}
         <ul 
           className={`nav-links ${isMobileMenuOpen ? 'mobile-active' : ''}`} 
