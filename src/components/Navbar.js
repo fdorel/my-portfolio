@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import './Navbar.css'; // Make sure this file exists in the same directory
+import './Navbar.css'; // Make sure this file exists in the same directory;
+import Navbar from 'react-bootstrap/Navbar';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
