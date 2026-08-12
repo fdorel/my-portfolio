@@ -153,7 +153,7 @@ html, body {
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 8px;
+  gap: 9px;
 }
 
 .nav-link {
