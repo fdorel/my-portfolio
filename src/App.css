@@ -135,8 +135,9 @@ html, body {
 
 /* If you have a main wrapper or layout container */
 .wrapper, .container, #root {
-  border-right: none !important;
+  border: none !important;
   box-shadow: none !important;
+
 }
 
 .navbar.scrolled {
