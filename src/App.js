@@ -19,7 +19,7 @@ const handleMenuClose = () => {
 };
 
 function App() {
-  // ... existing code ...
+
 
   return (
     <div className="App">
