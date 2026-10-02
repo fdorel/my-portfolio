@@ -31,7 +31,7 @@ function App() {
         onMenuClose={handleMenuClose} 
       />
 
-      {    }
+      {  /* The rest of the components */  }
     </div>
   );
 }
