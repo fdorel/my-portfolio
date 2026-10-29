@@ -26,10 +26,7 @@ function App() {
       {/* Add scroll locking when menu is open */}
       
       {/* Navigation - with menu state management */}
-      <Navbar 
-        onMenuOpen={handleMenuOpen} 
-        onMenuClose={handleMenuClose} 
-      />
+      
 
       {  /* The rest of the components */  }
     </div>
